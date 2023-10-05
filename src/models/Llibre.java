@@ -1,3 +1,5 @@
+package models;
+
 public class Llibre {
     String autor;
     String titol;
@@ -13,6 +15,10 @@ public class Llibre {
         this.prestatge = prestatge;
         this.existencies = existencies;
         this.id_llibre = id_llibre;
+    }
+
+    public void howMany() {
+        System.out.println(String.valueOf(this.existencies) + " books like this remaining");
     }
 
     public String getAutor() {
@@ -62,4 +68,5 @@ public class Llibre {
     public void setId_llibre(int id_llibre) {
         this.id_llibre = id_llibre;
     }
+
 }

@@ -1,3 +1,7 @@
+package models;
+
+import models.Llibre;
+
 import java.util.ArrayList;
 import java.util.List;
 

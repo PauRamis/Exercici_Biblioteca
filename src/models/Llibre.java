@@ -17,10 +17,6 @@ public class Llibre {
         this.id_llibre = id_llibre;
     }
 
-    public void howMany() {
-        System.out.println(String.valueOf(this.existencies) + " books like this remaining");
-    }
-
     public String getAutor() {
         return autor;
     }
@@ -68,5 +64,4 @@ public class Llibre {
     public void setId_llibre(int id_llibre) {
         this.id_llibre = id_llibre;
     }
-
 }

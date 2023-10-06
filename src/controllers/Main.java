@@ -8,10 +8,14 @@ public class Main {
         Client c = new Client();
         Llibre l = new Llibre("Cervantes", "Quijote", "Novela",
                 6, 10, 19040);
-        l.howMany();
+        System.out.println(l.getExistencies());
         c.getBook(l);
-        l.howMany();
+        System.out.println(l.getExistencies());
         c.retunrBook(l);
-        l.howMany();
+        System.out.println(l.getExistencies());
+        System.out.println(l.getPrestatge());
+        System.out.println(l.getAutor());
+
+
     }
 }
